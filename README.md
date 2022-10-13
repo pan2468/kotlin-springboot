@@ -24,7 +24,7 @@
 
 ### 6. MSA 아키텍처
 
-<img src="https://user-images.githubusercontent.com/58936137/195634999-61fdff96-9c34-4e06-a4e9-dd5ae925f658.png" width="600px" height="450px">
+<img src="https://user-images.githubusercontent.com/58936137/195647238-3f9f0210-4478-41c0-9dee-37f4223ea195.png" width="600px" height="450px">
 
 
 
