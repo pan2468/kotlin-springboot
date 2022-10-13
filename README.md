@@ -28,25 +28,14 @@
 
 ###  8. 트러블슈팅 경험
 <details>
-<summary>테스트 실행 오류</summary>
+<summary></summary>
 <div markdown="1">
 
-- Execution failed for task ':test'. 
-- 해결 원인: InteliJ IDEA Run test using: Gradle -> InteliJ IDEA 변경 후 개선 
-
-<img src="https://user-images.githubusercontent.com/58936137/193999166-8faac97d-ec01-444f-aa82-1bd76e5a4395.png" width="550px" height="400px">
  
 </div>
 </details> 
 
-<details>
-<summary></summary>
-<div markdown="1">
 
-
-	
-</div>
-</details> 
 
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
