@@ -44,6 +44,7 @@
 
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
+https://pan2468.tistory.com/130
 
 
 
