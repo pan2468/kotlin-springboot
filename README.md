@@ -35,7 +35,8 @@
 <div markdown="1">
 
 - Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
- 
+- 해결 원인: application.properties 설정 파일에서 spring.autoconfigure.exclude=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration 추가하여 개선
+  
 </div>
 </details> 
 
