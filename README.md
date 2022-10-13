@@ -1,3 +1,59 @@
 # Guest-Order
 
+###  1. 프로젝트 목적 
+
+
+
+###  3. 제작기간 / 참여인원
++ 제작기간: 2022-10-13 ~ 진행중
++ 참여인원: 개인 프로젝트
+
+### 4. 사용 기술(기술스택)
+#### Back-End
++ kotlin
++ SpringBoot 2.6.12
++ Gradle
++ MySQL
++ TDD
+
+### 5. IDE 개발환경
++ InteliJ IDEA
+
+### 6. MSA 아키텍처
+> MSA(Micro Service Architecture)이란 하나의 애플리케이션에 담아져 있는 서버를 작은 컴포넌트 별로 쪼개어 관리하는 아키텍처입니다. 많은 사용자들이 하나의 서버에 대용량 트래픽 발생으로 장애가 생기기 때문에 이를 대처하기 위해서 로드밸런싱으로 서버를 분산하여 관리합니다. 
+
+<img src="https://user-images.githubusercontent.com/58936137/194907324-23a280a4-cb7c-4077-885e-fd352e955a14.png" width="600px" height="350px">
+
+###  7. 핵심트러블슈팅 경험
+
+###  8. 트러블슈팅 경험
+<details>
+<summary>테스트 실행 오류</summary>
+<div markdown="1">
+
+- Execution failed for task ':test'. 
+- 해결 원인: InteliJ IDEA Run test using: Gradle -> InteliJ IDEA 변경 후 개선 
+
+<img src="https://user-images.githubusercontent.com/58936137/193999166-8faac97d-ec01-444f-aa82-1bd76e5a4395.png" width="550px" height="400px">
+ 
+</div>
+</details> 
+
+<details>
+<summary></summary>
+<div markdown="1">
+
+
+	
+</div>
+</details> 
+
+### 9. 기술적 issue 해결 과정
++ 프로젝트 생성<br> 
+
+
+
+
+
+
 
