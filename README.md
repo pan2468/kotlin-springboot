@@ -31,9 +31,10 @@
 
 ###  8. 트러블슈팅 경험
 <details>
-<summary></summary>
+<summary>프로젝트 Run 실행 오류발생</summary>
 <div markdown="1">
 
+- Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
  
 </div>
 </details> 
