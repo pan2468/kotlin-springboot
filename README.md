@@ -56,8 +56,11 @@
 </details> 
 
 ### 9. 기술적 issue 해결 과정
-+ 프로젝트 생성<br> 
++ 프로젝트 생성하기<br> 
 https://pan2468.tistory.com/130
+
++ Entity Order 생성하기<br>
+
 
 
 
