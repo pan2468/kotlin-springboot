@@ -10,6 +10,10 @@ import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.TestPropertySource
 import org.springframework.test.context.junit4.SpringRunner
 import org.junit.jupiter.api.Assertions.*
+import java.rmi.NotBoundException
+
+import java.util.*
+
 
 @RunWith(SpringRunner::class)
 @SpringBootTest
@@ -36,7 +40,7 @@ class OrderServiceTest{
         var title = "title_test"
         var content = "내용"
 
-        var orderList : List<Order> = orderRepository.findAll();
+        var orderList : List<Order> = orderRepository.findAll()
         var list : Order  = orderList.get(0)
 
         assertEquals(list.userName, userName)
@@ -44,4 +48,18 @@ class OrderServiceTest{
         assertEquals(list.content, content)
     }
 
+    @Test
+    @DisplayName("상세 조회 테스트")
+    fun orderDetail(){
+        this.orderInsert()
+        var id : Long = 1L
+        var orderList : List<Order> = orderRepository.findAll()
+        var list : Order = orderList.get(0)
+
+        val detail : Optional<Order> = orderRepository.findById(id)
+
+        assertEquals(list.userName, detail.get().userName)
+        assertEquals(list.title, detail.get().title)
+        assertEquals(list.content, detail.get().content)
+    }
 }
