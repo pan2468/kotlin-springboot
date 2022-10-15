@@ -46,6 +46,10 @@
 <div markdown="1">
 
 - org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+- 해결 원인: SpringBoot Entity 설계하여 Table 명을 지정하여 실행 > 기존 DBMS Table 명이 존재하기 때문에 Error 발생
+
+  <img src="https://user-images.githubusercontent.com/58936137/195974174-50a700d3-0fda-4555-a685-f0bb6e6c3e37.png" width="300px" height="100px">
+  
 
 </div>
 </details> 
