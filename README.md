@@ -32,7 +32,7 @@
 
 ###  8. 트러블슈팅 경험
 <details>
-<summary>프로젝트 Run 실행 오류발생</summary>
+<summary>프로젝트 Run 실행 오류</summary>
 <div markdown="1">
 
 - Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -41,7 +41,19 @@
 </div>
 </details> 
 
+<details>
+<summary>Entity 설계 오류</summary>
+<div markdown="1">
 
+- org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+- 해결 원인: SpringBoot Entity 설계하여 Table 명을 지정하여 실행 > 기존 DBMS Table 명이 존재하기 때문에 Error 발생
+
+  <img src="https://user-images.githubusercontent.com/58936137/195974174-50a700d3-0fda-4555-a685-f0bb6e6c3e37.png" width="300px" height="100px"><br>
+  
+  - 기존에 @Table(name=order) 명칭이 되어있는데 orders 수정 후 개선
+
+</div>
+</details> 
 
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
