@@ -55,6 +55,15 @@
 </div>
 </details> 
 
+<details>
+<summary>Service Insert Test Error</summary>
+<div markdown="1">
+
+- org.junit.runners.model.InvalidTestClassError: Invalid test class 'com.springboot.service.OrderServiceTest':
+
+</div>
+</details> 
+
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성하기<br> 
 https://pan2468.tistory.com/130
