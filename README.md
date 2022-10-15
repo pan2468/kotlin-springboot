@@ -32,7 +32,7 @@
 
 ###  8. 트러블슈팅 경험
 <details>
-<summary>프로젝트 Run 실행 오류발생</summary>
+<summary>프로젝트 Run 실행 오류</summary>
 <div markdown="1">
 
 - Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
@@ -41,7 +41,14 @@
 </div>
 </details> 
 
+<details>
+<summary>Entity 설계 오류</summary>
+<div markdown="1">
 
+- org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+
+</div>
+</details> 
 
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성<br> 
