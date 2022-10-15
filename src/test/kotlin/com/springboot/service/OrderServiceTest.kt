@@ -62,4 +62,26 @@ class OrderServiceTest{
         assertEquals(list.title, detail.get().title)
         assertEquals(list.content, detail.get().content)
     }
+
+    @Test
+    @DisplayName("수정 테스트")
+    fun orderUpdate(){
+        this.orderInsert()
+        val id : Long = 1L
+
+        var title = "title_update"
+        var content = "content_update"
+
+        var detail : Optional<Order> = orderRepository.findById(id)
+        var list : Order = detail.get()
+        list.updateBoard(title = "title_update", content = "content_update")
+
+        val update : Order = orderRepository.save(list)
+
+        assertEquals(update.title, title)
+        assertEquals(update.content, content)
+
+    }
+
+
 }
