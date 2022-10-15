@@ -83,5 +83,16 @@ class OrderServiceTest{
 
     }
 
+    @Test
+    @DisplayName("삭제 테스트")
+    fun orderDelete(){
+        val id: Long = 1L
+        this.orderInsert()
 
+        orderRepository.deleteById(id)
+
+        var orderList: List<Order> = orderRepository.findAll()
+
+        println(orderList.toString())
+    }
 }
