@@ -13,19 +13,24 @@ import javax.persistence.Table
 @Table(name = "orders")
 @ToString
 @Setter @Getter
-data class Order(
+class Order {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    var id: Long ? = null,
+    var id: Long ? = null
 
-    var userName: String,
+    var userName: String? = null
 
-    var title: String,
+    var title: String? = null
 
-    var content: String,
+    var content: String? = null
 
-    ){
-    constructor(title: String, content: String, writer: String) : this(null, title, content, writer)
+    constructor(userName: String, title: String, content: String){
+        this.userName = userName
+        this.title = title
+        this.content = content
+    }
+
 
     fun updateBoard(title: String, content: String){
         this.title = title
