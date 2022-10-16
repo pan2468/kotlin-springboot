@@ -14,14 +14,14 @@ class Guest {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    val id : Long ?= null
+    var id : Long ?= null
 
-    val userName : String ?= null
+    var userName : String ?= null
 
-    val createDate: LocalDateTime = LocalDateTime.now()
+    var createDate: LocalDateTime = LocalDateTime.now()
 
-    val email : String ?= null
+    var email : String ?= null
 
-    val password: String ?= null
+    var password: String ?= null
 
 }
