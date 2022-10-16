@@ -1,6 +1,7 @@
 package com.springboot.service
 
 
+import com.springboot.dto.OrderDto
 import com.springboot.entity.Order
 import com.springboot.repository.OrderRepository
 import org.springframework.beans.factory.annotation.Autowired
@@ -32,8 +33,13 @@ class OrderService{
         return orderRepository.findById(id)
     }
 
+    // 주문 수정 조회
+    fun orderUpdate(order: Order){
+        orderRepository.save(order)
+    }
 
 
+    // 주문 삭제
 
 
 }

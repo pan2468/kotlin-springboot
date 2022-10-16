@@ -1,5 +1,6 @@
 package com.springboot.entity
 
+import com.springboot.dto.OrderDto
 import lombok.Getter
 import lombok.Setter
 import lombok.ToString
@@ -25,15 +26,24 @@ class Order {
 
     var content: String? = null
 
+
+
     constructor(userName: String, title: String, content: String){
         this.userName = userName
         this.title = title
         this.content = content
     }
 
-
-    fun updateBoard(title: String, content: String){
-        this.title = title
-        this.content = content
+    fun orderUpdate(order: Order){
+        val orderDto: OrderDto = OrderDto()
+        orderDto.userName = order.userName
+        orderDto.title = order.title
+        orderDto.content = order.content
     }
+
+//    fun updateBoard(userName: String, title: String, content: String){
+//        this.userName = userName
+//        this.title = title
+//        this.content = content
+//    }
 }

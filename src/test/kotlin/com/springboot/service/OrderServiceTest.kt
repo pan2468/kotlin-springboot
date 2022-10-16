@@ -74,7 +74,7 @@ class OrderServiceTest{
         var detail : Optional<Order> = orderRepository.findById(id)
         var list : Order = detail.get()
 
-        list.updateBoard(title = "title_update", content = "content_update")
+        list.updateBoard(userName = "user_update", title = "title_update", content = "content_update")
         val update : Order = orderRepository.save(list)
 
         assertEquals(update.title, title)
