@@ -40,6 +40,8 @@ class OrderService{
 
 
     // 주문 삭제
-
+    fun orderDelete(id: Long) {
+        return orderRepository.deleteById(id)
+    }
 
 }
