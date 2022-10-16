@@ -12,7 +12,7 @@
 
 ### 4. 사용 기술(기술스택)
 #### Back-End
-+ kotlin
++ Kotlin
 + SpringBoot 2.6.12
 + Gradle
 + MySQL
