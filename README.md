@@ -60,10 +60,10 @@
 + 프로젝트 생성하기<br> 
 https://velog.io/@pan2468/Kotlin-Spring-REST-API-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1
 
-+ Entity Order 생성하기<br>
++ Entity Order 모델 생성하기<br>
 https://velog.io/@pan2468/Kotlin-Spring-Entity-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EA%B3%84-2
 
-+ Order TDD(테스트 주도 개발) 코드 구현하기 
++ Order 테스트 코드 구현하기 
 
 
 
