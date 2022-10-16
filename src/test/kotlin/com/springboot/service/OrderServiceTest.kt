@@ -26,7 +26,12 @@ class OrderServiceTest{
     @Test
     @DisplayName("저장 테스트")
     fun orderInsert(){
-        val orders: Order  = Order("user_test", "title_test", "내용" )
+        //val orders: Order  = Order("user_test", "title_test", "menu_test", "내용" )
+        val orders: Order = Order()
+        orders.userName = "user_test"
+        orders.title = "title_test"
+        orders.menu = "menu_test"
+        orders.content = "content_test"
 
         orderRepository.save(orders);
         println(orders.toString())
@@ -79,7 +84,6 @@ class OrderServiceTest{
 
         assertEquals(update.title, title)
         assertEquals(update.content, content)
-
     }
 
     @Test

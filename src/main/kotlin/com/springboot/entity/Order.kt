@@ -24,15 +24,18 @@ class Order {
 
     var title: String? = null
 
+    var menu: String? = null
+
     var content: String? = null
 
 
 
-    constructor(userName: String, title: String, content: String){
-        this.userName = userName
-        this.title = title
-        this.content = content
-    }
+//    constructor(userName: String, title: String, menu: String, content: String){
+//        this.userName = userName
+//        this.title = title
+//        this.menu = menu
+//        this.content = content
+//    }
 
     fun orderUpdate(order: Order){
         val orderDto: OrderDto = OrderDto()
@@ -41,9 +44,9 @@ class Order {
         orderDto.content = order.content
     }
 
-//    fun updateBoard(userName: String, title: String, content: String){
-//        this.userName = userName
-//        this.title = title
-//        this.content = content
-//    }
+    fun updateBoard(userName: String, title: String, content: String){
+        this.userName = userName
+        this.title = title
+        this.content = content
+    }
 }
