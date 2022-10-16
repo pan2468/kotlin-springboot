@@ -63,8 +63,8 @@ https://velog.io/@pan2468/Kotlin-Spring-REST-API-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%
 + Entity Order 모델 생성하기<br>
 https://velog.io/@pan2468/Kotlin-Spring-Entity-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EA%B3%84-2
 
-+ Order 테스트 코드 구현하기 
-
++ Order 저장, 조회 테스트 코드 구현하기 
+https://velog.io/@pan2468/Kotlin-Spring-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
 
 
 
