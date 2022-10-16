@@ -6,6 +6,7 @@ import com.springboot.repository.OrderRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
+import java.util.*
 
 
 @Transactional
@@ -25,6 +26,12 @@ class OrderService{
         val orderList: List<Order> = orderRepository.findAll()
         return orderList
     }
+
+    // 주문 상세 조회
+    fun orderById(id: Long): Optional<Order> {
+        return orderRepository.findById(id)
+    }
+
 
 
 
