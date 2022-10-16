@@ -65,7 +65,7 @@
 
 
 + 저장, 조회 테스트 코드 구현하기<br>
-<a href="https://velog.io/@pan2468/Kotlin-Spring-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0">Order 저장, 조회 테스트 코드 작성</a>
+<a href="https://velog.io/@pan2468/Kotlin-Spring-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0">Order 저장, 조회 테스트 코드 </a>
 
 
 + 수정, 삭제 테스트 코드 구현하기<br>
