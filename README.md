@@ -66,7 +66,8 @@ https://velog.io/@pan2468/Kotlin-Spring-Entity-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EA%B
 + Order 저장, 조회 테스트 코드 구현하기<br>
 https://velog.io/@pan2468/Kotlin-Spring-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0
 
-
++ Order 수정,  테스트 코드 구현하기<br>
+https://velog.io/@pan2468/Kotlin-Spring-%EC%88%98%EC%A0%95-%EC%82%AD%EC%A0%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-4
 
 
 
