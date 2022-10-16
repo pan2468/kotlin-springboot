@@ -57,14 +57,18 @@
 
 
 ### 9. 기술적 issue 해결 과정
-+ 프로젝트 생성하기<br> 
-https://pan2468.tistory.com/130
 
-+ Entity Order 생성하기<br>
++ <a href="https://velog.io/@pan2468/Kotlin-Spring-REST-API-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1">프로젝트 생성하기</a><br>
 
++ <a href="https://velog.io/@pan2468/Kotlin-Spring-Entity-%EB%AA%A8%EB%8D%B8-%EC%84%A4%EA%B3%84-2">Entity 생성하기</a><br>
 
++ <a href="https://velog.io/@pan2468/Kotlin-Spring-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0">저장, 조회 테스트 코드 작성하기</a><br>
 
++ <a href="https://velog.io/@pan2468/Kotlin-Spring-%EC%88%98%EC%A0%95-%EC%82%AD%EC%A0%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-4">수정, 삭제 테스트 코드 작성하기</a><br>
 
++ <a href="https://velog.io/@pan2468/Kotlin-Spring-REST-API-%EC%A0%80%EC%9E%A5-%EC%A1%B0%ED%9A%8C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0">REST API 저장, 조회 </a>
+
++ <a href="https://velog.io/@pan2468/Kotlin-Spring-REST-API-%EC%88%98%EC%A0%95-%EC%82%AD%EC%A0%9C-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-6">REST API 수정, 삭제</a>
 
 
 
