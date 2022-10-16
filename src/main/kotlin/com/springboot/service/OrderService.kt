@@ -15,9 +15,17 @@ class OrderService{
     @Autowired
     private lateinit var orderRepository: OrderRepository
 
+    // 주문 등록
     fun orderCreate(order: Order){
         orderRepository.save(order)
     }
+
+    //주문 목록 조회
+    fun orderList(): List<Order>{
+        val orderList: List<Order> = orderRepository.findAll()
+        return orderList
+    }
+
 
 
 
