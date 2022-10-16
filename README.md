@@ -58,7 +58,7 @@
 
 ### 9. 기술적 issue 해결 과정
 + 프로젝트 생성하기<br> 
-https://pan2468.tistory.com/130
+https://velog.io/@pan2468/Kotlin-Spring-REST-API-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1
 
 + Entity Order 생성하기<br>
 
