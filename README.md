@@ -55,6 +55,15 @@
 </div>
 </details> 
 
+<details>
+<summary>Spring Security 설정 오류</summary>
+<div markdown="1">
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is kotlin.UninitializedPropertyAccessException: lateinit property guestService has not been initialized
+
+</div>
+</details>
+
 
 ### 9. 기술적 issue 해결 과정
 
