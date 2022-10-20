@@ -4,6 +4,7 @@
 + Guest(고객) Order(주문) 연관관계 일대일 통해서 매핑하기
 + Kotlin & Spring API 설계하여 구현하기
 + REST API CRUD 개발 진행하기 
++ Spring Security 설정하기 
 
 
 ###  3. 제작기간 / 참여인원
