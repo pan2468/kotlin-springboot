@@ -24,10 +24,13 @@ class GuestServiceTest{
     @Test
     @DisplayName("회원가입 테스트")
     fun guestCreate(){
-        val singUp : Guest = Guest()
+        val singUp : Guest = Guest(userName = "user",
+                                    createDate = LocalDateTime.now(),
+                                    userId = "test2468",
+                                    password = "123456789@")
         singUp.userName = "user"
         singUp.createDate = LocalDateTime.now()
-        singUp.email = "test@test.com"
+        singUp.userId = "test2468"
         singUp.password = "123456789@"
 
         val save : Guest = guestRepository.save(singUp)
@@ -43,7 +46,7 @@ class GuestServiceTest{
         val list1 : List<Guest> = guestRepository.findAll()
 
         assertEquals(list.get(0).userName, list1.get(0).userName)
-        assertEquals(list.get(0).email, list1.get(0).email)
+        assertEquals(list.get(0).userId, list1.get(0).userId)
     }
 
 }

@@ -1,14 +1,19 @@
 package com.springboot.service
 
-import org.springframework.security.core.userdetails.UserDetails
-import org.springframework.security.core.userdetails.UserDetailsService
+import com.springboot.entity.Guest
+import com.springboot.repository.GuestRepository
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Service
+import org.springframework.transaction.annotation.Transactional
 
-class GuestService : UserDetailsService {
+@Service
+@Transactional
+ class GuestService {
 
+    @Autowired
+    private lateinit var guestRepository: GuestRepository
 
-
-    override fun loadUserByUsername(username: String?): UserDetails {
-        TODO("Not yet implemented")
+    fun saveGuest(guest: Guest){
+        guestRepository.save(guest);
     }
-
 }

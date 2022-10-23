@@ -1,5 +1,6 @@
 package com.springboot.entity
 
+import com.springboot.constant.Role
 import lombok.Getter
 import lombok.Setter
 import lombok.ToString
@@ -24,4 +25,13 @@ class Guest {
 
     var password: String ?= null
 
+    @Enumerated(EnumType.STRING)
+    var role: Role? = null
+
+    constructor(userName: String, userId: String, createDate: LocalDateTime, password: String){
+        this.userName = userName
+        this.userId = userId
+        this.createDate = createDate
+        this.password = password
+    }
 }
