@@ -3,6 +3,7 @@ package com.springboot.controller
 import com.springboot.entity.Guest
 import com.springboot.service.GuestService
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.ModelAttribute
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestMapping
@@ -17,12 +18,9 @@ class GuestController {
 
     // 고객 등록
     @PostMapping("/add")
-    fun saveMember(@ModelAttribute guest: Guest){
-
-        println("***** 접속 ******")
+    fun saveGuest(@ModelAttribute guest: Guest) {
 
         guestService.saveGuest(guest)
 
-        println("***** 등록 완료 ******")
     }
 }

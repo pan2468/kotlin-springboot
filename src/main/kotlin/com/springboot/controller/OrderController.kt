@@ -25,25 +25,25 @@ class OrderController {
 
     // 주문 등록
     @PostMapping("/create")
-    fun orderCreate(@ModelAttribute order: Order){
+    fun orderCreate(@ModelAttribute order: Order) {
         orderService.orderCreate(order)
     }
 
     // 주문 목록 조회
     @GetMapping("/list")
-    fun orderList(): List<Order>{
+    fun orderList(): List<Order> {
         return orderService.orderList()
     }
 
     // 주문 상세 조회
     @GetMapping("/detail/{id}")
-    fun orderById(@PathVariable id : Long): Optional<Order>{
+    fun orderById(@PathVariable id: Long): Optional<Order> {
         return orderService.orderById(id)
     }
 
     // 주문 수정
     @PutMapping("/update")
-    fun orderUpdate(@ModelAttribute order: Order){
+    fun orderUpdate(@ModelAttribute order: Order) {
         order.orderUpdate(order)
         orderService.orderUpdate(order)
     }
@@ -51,7 +51,7 @@ class OrderController {
 
     // 주문 삭제
     @DeleteMapping("/delete/{id}")
-    fun orderDelete(@PathVariable id : Long){
+    fun orderDelete(@PathVariable id: Long) {
         return orderService.orderDelete(id)
     }
 }

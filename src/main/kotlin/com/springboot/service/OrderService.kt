@@ -1,7 +1,5 @@
 package com.springboot.service
 
-
-import com.springboot.dto.OrderDto
 import com.springboot.entity.Order
 import com.springboot.repository.OrderRepository
 import org.springframework.beans.factory.annotation.Autowired
@@ -18,7 +16,7 @@ class OrderService{
     private lateinit var orderRepository: OrderRepository
 
     // 주문 등록
-    fun orderCreate(order: Order){
+    fun orderCreate(order: Order) {
         orderRepository.save(order)
     }
 
