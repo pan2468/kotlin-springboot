@@ -22,17 +22,12 @@ class GuestService : UserDetailsService{
     }
 
     override fun loadUserByUsername(userId: String?): UserDetails {
-        TODO("Not yet implemented")
-        val guest : Guest? = guestRepository.findByUserId(userId)
-
-        if(guest == null){
-            throw UsernameNotFoundException(userId)
-        }
+        val guest : Guest = guestRepository.findByUserId(userId) ?: throw UsernameNotFoundException(userId)
 
         return User.builder()
             .username(guest.userId)
             .password(guest.password)
+            .roles(guest.role.toString())
             .build()
-
     }
 }
