@@ -24,7 +24,7 @@ class SecurityConfig : WebSecurityConfigurerAdapter() {
     fun bCryptPasswordEncoder(): BCryptPasswordEncoder {
         return BCryptPasswordEncoder()
     }
-
+    
     override fun configure(http: HttpSecurity){
         http.csrf().disable()
         http.formLogin()
